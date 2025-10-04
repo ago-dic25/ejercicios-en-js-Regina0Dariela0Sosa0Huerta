@@ -1,0 +1,75 @@
+body {
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #ff4da6;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.key {
+  border: 2px solid #ff99cc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 70px;
+  background-color: rgba(255, 204, 224, 0.9);
+  transition: background-color 0.1s ease;
+}
+
+.key kbd {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff3399;
+}
+
+.key .sonidos {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #cc0066;
+}
+
+.key.playing {
+  background-color: #ff99c8;
+  border-color: #ff66b2;
+}
+
+.save button {
+  margin-top: 40px;
+  padding: 12px 28px;
+  background-color: #ffcce6;
+  border: 2px solid #ff80bf;
+  color: #ff1493;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+  transition: all 0.3s ease;
+}
+
+.save button:hover {
+  background-color: #ff99cc;
+  transform: scale(1.05);
+}
