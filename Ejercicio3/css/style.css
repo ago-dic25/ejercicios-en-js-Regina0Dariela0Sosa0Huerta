@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  font-family: "Fredoka One", cursive;
+  background-color: #ffe6f2; /* fondo rosita pastel */
+  color: #ff66b2;
+  text-align: center;
+  padding: 30px;
+}
+
+h2 {
+  color: #ff3399;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px #ffcce6;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  border: 2px solid #ff99cc;
+  border-radius: 20px;
+  outline: none;
+  width: 250px;
+  font-size: 16px;
+  background-color: #fff0f5;
+  color: #cc0066;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 8px #ff99cc;
+}
+
+button {
+  background-color: #ff66b2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/*mov botones acuerdate */
+button:hover {
+  background-color: #ff3385;
+  transform: scale(1.05);
+}
+
+.resultado {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+
+li {
+  background-color: #fff0f5;
+  border: 2px solid #ff99cc;
+  border-radius: 15px;
+  padding: 12px;
+  margin: 8px 0;
+  box-shadow: 0 4px 8px rgba(255, 153, 204, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+
